@@ -6,9 +6,9 @@
 2. Import the 'subject', 'activity' and accelerometer data from the text files located in the test folder.
 3. Move to the 'train' folder and import the 'subject', 'activity' and accelerometer data from the csv files.
 4. Combine the 'subject', 'activity' and accelerometer test and train datasets together into three data frames:
-+ subject - contains the subject data
-+ y - contains the activity data
-+ x - contains the accelerometer data
+  + subject - contains the subject data
+  + y - contains the activity data
+  + x - contains the accelerometer data
 5. Import the 'features.txt' text file into the 'features' variable. This defines what each variable represents in the accelerometer data (x).
 6. Extract the mean() and std() variables from the accelerometer data set and change the header names to the correct description.
 7. Convert the activity data in the 'y' data frame to the text description provided in the 'activity_labels.txt' file and change the header name to 'activity'.
